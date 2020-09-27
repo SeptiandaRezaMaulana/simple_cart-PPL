@@ -1,7 +1,7 @@
-const incrementQty = (qty) => parseInt(qty) + 1; // Anonymous function dimana hasil returnya qty +1 
-const decrementQty = (qty) => parseInt(qty) - 1; // Anonymous function dimana hasil returnya qty +1 
+const incrementQty = (qty) => parseInt(qty) + 1; // Anonymous function dimana hasil returnnya qty +1 
+const decrementQty = (qty) => parseInt(qty) - 1; // Anonymous function dimana hasil returnnya qty -1 
 
-function recalculateSubTotal(price, qty) { // Membuat fungsi sum
+function recalculateSubTotal(price, qty) { // Membuat fungsi sum 
     return price * qty; 
 }
 
